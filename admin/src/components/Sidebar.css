@@ -1,0 +1,36 @@
+.sideBarMenu {
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding inside the sidebar */
+    position: fixed; /* Keep the sidebar fixed */
+    height: 100%; /* Full height */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.sideBarMenu h1 {
+    font-size: 24px; /* Font size for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.sideBarMenu ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.sideBarMenu li {
+    margin: 10px 0; /* Space between links */
+}
+
+.sideBarMenu a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Padding for links */
+    display: block; /* Make the link fill the entire list item */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.sideBarMenu a:hover {
+    background-color: #575757; /* Change background color on hover */
+    border-radius: 4px; /* Slightly rounded corners */
+}
